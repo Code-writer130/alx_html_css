@@ -54,9 +54,17 @@ a:hover {
   color: #ff6565;
 }
 
-i {
-  font-size: 5em;
-  color: red;
+.holberton_school-icon-ic_twitter {
+  font-size: 2em;
+  color: white;
+}
+.holberton_school-icon-ic_instagram {
+  font-size: 2em;
+  color: white;
+}
+.holberton_school-icon-ic_facebook {
+  font-size: 2em;
+  color: white;
 }
 .images-container {
   display: flex;
@@ -145,4 +153,22 @@ h3 {
 h3 {
   text-align: center;
   font-size: 3rem;
+}
+footer {
+  background-color: #071629;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-icons {
+  background-color: #071629;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+.logo-image {
+  width: 250px;
+  height: 50px;
 }

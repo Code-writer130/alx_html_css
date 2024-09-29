@@ -1,0 +1,148 @@
+* {
+  margin: 0%;
+}
+header {
+  background-image: url(../headphones/images/headphones_hero_1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 30px;
+  font-size: large;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.hero-section {
+  color: white;
+  text-align: center;
+  padding-top: 20%;
+}
+.lorem-container p {
+  font-weight: bold;
+}
+button {
+  background-color: #ff6565;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  box-shadow: none;
+  font-size: 12px;
+  padding: 15px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.width-container {
+  max-width: 800px;
+  margin-left: 250px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+a:hover {
+  color: #ff6565;
+}
+
+i {
+  font-size: 5em;
+  color: red;
+}
+.images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.indi-image {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  padding-top: 30px;
+}
+.width-p {
+  max-width: 600px;
+  text-align: center;
+  padding-left: 25%;
+  padding-bottom: 6%;
+}
+
+.section-image {
+  position: relative;
+  background-image: url(../headphones/images/headphones_hero_2.jpg);
+  padding-bottom: 350px;
+  color: white;
+  text-align: center;
+}
+
+.pentagone {
+  position: absolute;
+}
+* {
+  margin: 0%;
+}
+img {
+  width: 200px;
+  height: 200px;
+  padding: 90px 50px;
+}
+.lorem {
+  max-width: 700px;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+h3 {
+  padding-top: 30px;
+}
+
+.form-container {
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  padding-left: 30%;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.cta-button {
+  background-color: #f66;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+h3 {
+  text-align: center;
+  font-size: 3rem;
+}

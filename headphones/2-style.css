@@ -1,0 +1,27 @@
+.section-image {
+  position: relative;
+  background-image: url(../headphones/images/headphones_hero_2.jpg);
+  padding-bottom: 350px;
+  color: white;
+  text-align: center;
+}
+
+.pentagone {
+  position: absolute;
+}
+* {
+  margin: 0%;
+}
+img {
+  width: 200px;
+  height: 200px;
+  padding: 90px 50px;
+}
+.lorem {
+  max-width: 700px;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+h3 {
+  padding-top: 30px;
+}
